@@ -28,7 +28,7 @@ const Hero = () => {
             <Button variant="cta" size="lg" className="px-8 py-4 text-lg">
               Work With Us
             </Button>
-            <Button variant="outline" size="lg" className="px-8 py-4 text-lg border-white/30 text-white hover:bg-white/10">
+            <Button variant="outline" size="lg" className="px-8 py-4 text-lg border-white/30 text-white bg-white/10 hover:bg-white/20">
               Learn Our Story
             </Button>
           </div>

@@ -28,9 +28,11 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-hero rounded-lg flex items-center justify-center">
-              <Heart className="w-5 h-5 text-white" />
-            </div>
+            <img 
+              src="/lovable-uploads/15f32e8a-8085-4b2c-adaf-6608600430cf.png" 
+              alt="Web Workers Logo" 
+              className="h-8 w-8"
+            />
             <span className="text-xl font-bold text-foreground">Web Workers</span>
           </div>
 
