@@ -8,46 +8,46 @@
   :root {
     /* Core Brand Colors */
     --background: 0 0% 100%;
-    --foreground: 220 10% 20%;
+    --foreground: 215 25% 15%;
 
-    /* Simple Primary - Soft Blue */
-    --primary: 220 15% 45%;
+    /* Professional Primary - Clear Blue */
+    --primary: 215 50% 40%;
     --primary-foreground: 0 0% 98%;
-    --primary-glow: 220 20% 55%;
+    --primary-glow: 215 55% 50%;
 
-    /* Simple Secondary - Light Gray */
-    --secondary: 210 10% 85%;
-    --secondary-foreground: 220 10% 20%;
-    --secondary-glow: 210 15% 90%;
+    /* Clean Secondary - Professional Gray */
+    --secondary: 210 15% 25%;
+    --secondary-foreground: 0 0% 98%;
+    --secondary-glow: 210 20% 35%;
 
-    /* Simple Accent - Muted Blue */
-    --accent: 210 20% 65%;
+    /* Clear Accent - Trustworthy Teal */
+    --accent: 180 35% 45%;
     --accent-foreground: 0 0% 98%;
 
     /* Neutral Palette */
-    --muted: 210 10% 96%;
-    --muted-foreground: 215 10% 45%;
+    --muted: 210 20% 95%;
+    --muted-foreground: 215 15% 40%;
     --card: 0 0% 100%;
-    --card-foreground: 220 10% 20%;
+    --card-foreground: 215 25% 15%;
     --popover: 0 0% 100%;
-    --popover-foreground: 220 10% 20%;
+    --popover-foreground: 215 25% 15%;
 
     /* Interactive States */
-    --destructive: 0 50% 50%;
+    --destructive: 0 65% 50%;
     --destructive-foreground: 0 0% 98%;
-    --border: 210 15% 85%;
-    --input: 210 10% 92%;
-    --ring: 220 15% 45%;
+    --border: 210 20% 85%;
+    --input: 210 15% 90%;
+    --ring: 215 50% 40%;
 
-    /* Simplified Design Elements */
-    --gradient-hero: linear-gradient(135deg, hsl(var(--background)), hsl(var(--muted)));
+    /* Clear Design Elements */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary) / 0.95), hsl(var(--primary-glow) / 0.9));
     --gradient-warm: linear-gradient(135deg, hsl(var(--secondary)), hsl(var(--secondary-glow)));
     --gradient-subtle: linear-gradient(180deg, hsl(var(--background)), hsl(var(--muted)));
     
-    /* Soft Shadows */
-    --shadow-soft: 0 2px 10px -2px hsl(220 10% 20% / 0.05);
-    --shadow-warm: 0 4px 15px -4px hsl(220 10% 20% / 0.08);
-    --shadow-elevated: 0 6px 20px -6px hsl(220 10% 20% / 0.1);
+    /* Clear Shadows */
+    --shadow-soft: 0 2px 15px -3px hsl(215 25% 15% / 0.08);
+    --shadow-warm: 0 4px 20px -4px hsl(215 25% 15% / 0.12);
+    --shadow-elevated: 0 8px 30px -6px hsl(215 25% 15% / 0.15);
 
     /* Animation */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
