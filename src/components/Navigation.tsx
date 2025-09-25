@@ -51,7 +51,7 @@ const Navigation = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button variant="cta" onClick={() => scrollToSection('#contact')}>
+            <Button onClick={() => scrollToSection('#contact')}>
               Start Project
             </Button>
           </div>
@@ -78,7 +78,7 @@ const Navigation = () => {
                   {item.name}
                 </button>
               ))}
-              <Button variant="cta" className="mt-4" onClick={() => scrollToSection('#contact')}>
+              <Button className="mt-4" onClick={() => scrollToSection('#contact')}>
                 Start Project
               </Button>
             </div>

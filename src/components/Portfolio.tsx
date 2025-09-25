@@ -98,7 +98,7 @@ const Portfolio = () => {
           <p className="text-muted-foreground mb-6">
             Ready to see your project featured here?
           </p>
-          <Button variant="hero" size="lg">
+          <Button size="lg">
             Start Your Project
           </Button>
         </div>

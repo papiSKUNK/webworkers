@@ -88,7 +88,7 @@ const Team = () => {
           <p className="text-muted-foreground mb-6">
             Want to work with us or learn more about our mission?
           </p>
-          <Button variant="cta" size="lg">
+          <Button size="lg">
             Get In Touch
           </Button>
         </div>
