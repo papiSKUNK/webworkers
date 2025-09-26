@@ -24,7 +24,7 @@ const About = () => {
             About Web Workers
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">We're Ezra Hengeveld and Mahir Kaiser,
- two passionate developers from Newfoundland, Canada. Unlike typical coding businesses, we're a nonprofit organization dedicated to creating exceptional websites while supporting families in need.</p>
+  two passionate developers from Newfoundland, Canada. Unlike typical coding businesses, we're a nonprofit organization dedicated to creating exceptional websites while supporting families in need.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
