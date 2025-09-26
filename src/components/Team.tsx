@@ -1,5 +1,7 @@
 import { Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import ezraHeadshot from "@/assets/ezra-headshot.jpg";
+import mahirHeadshot from "@/assets/mahir-headshot.jpg";
 
 const Team = () => {
   const teamMembers = [
@@ -8,14 +10,14 @@ const Team = () => {
       role: "Co-Founder & Full-Stack Developer",
       bio: "Passionate about creating clean, efficient code and meaningful digital experiences. Specializes in JavaScript, Swift, and modern web technologies.",
       skills: ["JavaScript", "Swift", "UI/UX Design", "Performance Optimization", "SEO"],
-      image: "/placeholder.svg" // Placeholder for now - they can upload real photos
+      image: ezraHeadshot
     },
     {
       name: "Mahir",
       role: "Co-Founder & Full-Stack Developer", 
       bio: "Dedicated to building accessible, user-friendly websites that make a difference. Expert in responsive design and performance optimization.",
       skills: ["JavaScript", "Python", "UI/UX Design", "Performance Optimization"],
-      image: "/placeholder.svg" // Placeholder for now - they can upload real photos
+      image: mahirHeadshot
     }
   ];
 
