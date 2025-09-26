@@ -7,7 +7,7 @@ const Team = () => {
       name: "Ezra Hengeveld",
       role: "Co-Founder & Full-Stack Developer",
       bio: "Passionate about creating clean, efficient code and meaningful digital experiences. Specializes in React, TypeScript, and modern web technologies.",
-      skills: ["React", "TypeScript", "Node.js", "PostgreSQL"],
+      skills: ["JavaScript", "Swift"],
       image: "/placeholder.svg" // Placeholder for now - they can upload real photos
     },
     {
