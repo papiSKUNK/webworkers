@@ -8,39 +8,39 @@
   :root {
     /* Core Brand Colors */
     --background: 0 0% 100%;
-    --foreground: 215 20% 20%;
+    --foreground: 215 25% 15%;
 
-    /* Professional Primary - Calm Blue */
-    --primary: 210 35% 45%;
+    /* Professional Primary - Clear Blue */
+    --primary: 215 50% 40%;
     --primary-foreground: 0 0% 98%;
-    --primary-glow: 210 38% 52%;
+    --primary-glow: 215 55% 50%;
 
     /* Clean Secondary - Professional Gray */
-    --secondary: 210 14% 30%;
+    --secondary: 210 15% 25%;
     --secondary-foreground: 0 0% 98%;
-    --secondary-glow: 210 16% 38%;
+    --secondary-glow: 210 20% 35%;
 
-    /* Clear Accent - Soft Blue */
-    --accent: 210 30% 50%;
+    /* Clear Accent - Trustworthy Teal */
+    --accent: 180 35% 45%;
     --accent-foreground: 0 0% 98%;
 
     /* Neutral Palette */
-    --muted: 210 18% 96%;
-    --muted-foreground: 215 14% 45%;
+    --muted: 210 20% 95%;
+    --muted-foreground: 215 15% 40%;
     --card: 0 0% 100%;
-    --card-foreground: 215 20% 20%;
+    --card-foreground: 215 25% 15%;
     --popover: 0 0% 100%;
-    --popover-foreground: 215 20% 20%;
+    --popover-foreground: 215 25% 15%;
 
     /* Interactive States */
     --destructive: 0 65% 50%;
     --destructive-foreground: 0 0% 98%;
-    --border: 210 16% 88%;
-    --input: 210 14% 92%;
-    --ring: 210 35% 45%;
+    --border: 210 20% 85%;
+    --input: 210 15% 90%;
+    --ring: 215 50% 40%;
 
     /* Clear Design Elements */
-    --gradient-hero: linear-gradient(135deg, hsl(210 35% 45% / 0.90), hsl(210 32% 50% / 0.85));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary) / 0.95), hsl(var(--primary-glow) / 0.9));
     --gradient-warm: linear-gradient(135deg, hsl(var(--secondary)), hsl(var(--secondary-glow)));
     --gradient-subtle: linear-gradient(180deg, hsl(var(--background)), hsl(var(--muted)));
     
