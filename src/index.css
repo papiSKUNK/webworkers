@@ -10,23 +10,23 @@
     --background: 0 0% 100%;
     --foreground: 215 20% 20%;
 
-    /* Professional Primary - Neutral Slate */
-    --primary: 215 16% 25%;
+    /* Professional Primary - Calm Blue */
+    --primary: 210 35% 45%;
     --primary-foreground: 0 0% 98%;
-    --primary-glow: 215 18% 35%;
+    --primary-glow: 210 38% 52%;
 
-    /* Clean Secondary - Soft Gray */
-    --secondary: 210 12% 30%;
+    /* Clean Secondary - Professional Gray */
+    --secondary: 210 14% 30%;
     --secondary-foreground: 0 0% 98%;
-    --secondary-glow: 210 15% 40%;
+    --secondary-glow: 210 16% 38%;
 
-    /* Clear Accent - Subtle Charcoal */
-    --accent: 210 10% 45%;
+    /* Clear Accent - Soft Blue */
+    --accent: 210 30% 50%;
     --accent-foreground: 0 0% 98%;
 
     /* Neutral Palette */
-    --muted: 210 15% 96%;
-    --muted-foreground: 215 12% 45%;
+    --muted: 210 18% 96%;
+    --muted-foreground: 215 14% 45%;
     --card: 0 0% 100%;
     --card-foreground: 215 20% 20%;
     --popover: 0 0% 100%;
@@ -35,12 +35,12 @@
     /* Interactive States */
     --destructive: 0 65% 50%;
     --destructive-foreground: 0 0% 98%;
-    --border: 210 15% 88%;
-    --input: 210 12% 92%;
-    --ring: 215 16% 25%;
+    --border: 210 16% 88%;
+    --input: 210 14% 92%;
+    --ring: 210 35% 45%;
 
     /* Clear Design Elements */
-    --gradient-hero: linear-gradient(135deg, hsl(215 16% 25% / 0.92), hsl(215 14% 30% / 0.88));
+    --gradient-hero: linear-gradient(135deg, hsl(210 35% 45% / 0.90), hsl(210 32% 50% / 0.85));
     --gradient-warm: linear-gradient(135deg, hsl(var(--secondary)), hsl(var(--secondary-glow)));
     --gradient-subtle: linear-gradient(180deg, hsl(var(--background)), hsl(var(--muted)));
     
