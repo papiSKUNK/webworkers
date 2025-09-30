@@ -22,10 +22,10 @@ const Team = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-subtle">
+    <section className="py-24 bg-muted/30">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+        <div className="text-center mb-20 animate-fade-in">
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6 tracking-tight">
             Meet the Team
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
@@ -38,11 +38,11 @@ const Team = () => {
           {teamMembers.map((member, index) => (
             <div 
               key={index}
-              className="bg-card rounded-2xl p-8 shadow-soft hover:shadow-elevated transition-all duration-300 animate-slide-up"
+              className="bg-card rounded-2xl p-8 border border-border hover:border-primary/20 hover:shadow-soft transition-all duration-300 animate-slide-up"
               style={{ animationDelay: `${index * 0.2}s` }}
             >
               <div className="text-center mb-6">
-                <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden bg-gradient-hero">
+                <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden ring-4 ring-primary/10">
                   <img 
                     src={member.image} 
                     alt={`${member.name} - ${member.role}`}
@@ -50,7 +50,7 @@ const Team = () => {
                   />
                 </div>
                 <h3 className="text-2xl font-bold text-foreground mb-2">{member.name}</h3>
-                <p className="text-secondary font-medium mb-4">{member.role}</p>
+                <p className="text-muted-foreground font-medium mb-4">{member.role}</p>
               </div>
 
               <p className="text-muted-foreground leading-relaxed mb-6 text-center">

@@ -37,35 +37,35 @@ const Index = () => {
         </section>
       </main>
 
-      <footer className="bg-primary text-primary-foreground py-12">
+      <footer className="bg-secondary text-white py-16 border-t border-border">
         <div className="max-w-6xl mx-auto px-6">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
             <div>
-              <h3 className="text-lg font-semibold mb-4">Web Workers</h3>
-              <p className="text-primary-foreground/80 leading-relaxed">
+              <h3 className="text-xl font-bold mb-4">Web Workers</h3>
+              <p className="text-white/90 leading-relaxed text-sm">
                 Professional web development from Newfoundland, supporting the Ronald McDonald House with every project.
               </p>
             </div>
             
             <div>
-              <h3 className="text-lg font-semibold mb-4">Services</h3>
-              <ul className="space-y-2 text-primary-foreground/80">
-                <li>Business Websites</li>
-                <li>E-commerce Development</li>
-                <li>Web Applications</li>
-                <li>Maintenance & Support</li>
+              <h3 className="text-xl font-bold mb-4">Services</h3>
+              <ul className="space-y-2.5 text-white/90 text-sm">
+                <li className="hover:text-white transition-colors">Business Websites</li>
+                <li className="hover:text-white transition-colors">E-commerce Development</li>
+                <li className="hover:text-white transition-colors">Web Applications</li>
+                <li className="hover:text-white transition-colors">Maintenance & Support</li>
               </ul>
             </div>
             
             <div>
-              <h3 className="text-lg font-semibold mb-4">Supporting</h3>
-              <p className="text-primary-foreground/80 leading-relaxed">
+              <h3 className="text-xl font-bold mb-4">Supporting</h3>
+              <p className="text-white/90 leading-relaxed text-sm">
                 Ronald McDonald House provides a home away from home for families with children receiving medical treatment.
               </p>
             </div>
           </div>
           
-          <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center text-primary-foreground/80">
+          <div className="border-t border-white/10 pt-8 text-center text-white/80 text-sm">
             <p>&copy; 2024 Web Workers. All rights reserved. Building websites, building hope.</p>
           </div>
         </div>

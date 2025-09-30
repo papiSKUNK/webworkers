@@ -30,10 +30,10 @@ const Portfolio = () => {
   ];
 
   return (
-    <section className="py-20 bg-background">
+    <section className="py-24 bg-background">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+        <div className="text-center mb-20 animate-fade-in">
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6 tracking-tight">
             Our Work
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
@@ -46,30 +46,30 @@ const Portfolio = () => {
           {projects.map((project, index) => (
             <div 
               key={index}
-              className="group bg-card rounded-2xl overflow-hidden shadow-soft hover:shadow-elevated transition-all duration-300 animate-slide-up"
+              className="group bg-card rounded-2xl overflow-hidden border border-border hover:border-primary/20 hover:shadow-soft transition-all duration-300 animate-slide-up"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <div className="relative overflow-hidden">
                 <img 
                   src={project.image} 
                   alt={`${project.title} website screenshot`}
-                  className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+                  className="w-full h-56 object-cover transition-transform duration-500 group-hover:scale-105"
                 />
-                <div className="absolute inset-0 bg-gradient-hero opacity-0 group-hover:opacity-80 transition-opacity duration-300 flex items-center justify-center">
-                  <div className="flex space-x-4">
-                    <Button variant="outline" size="icon" className="border-white text-white hover:bg-white hover:text-primary">
-                      <ExternalLink className="w-4 h-4" />
+                <div className="absolute inset-0 bg-primary/90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <div className="flex space-x-3">
+                    <Button variant="outline" size="icon" className="border-2 border-white text-white bg-transparent hover:bg-white hover:text-primary">
+                      <ExternalLink className="w-5 h-5" />
                     </Button>
-                    <Button variant="outline" size="icon" className="border-white text-white hover:bg-white hover:text-primary">
-                      <Github className="w-4 h-4" />
+                    <Button variant="outline" size="icon" className="border-2 border-white text-white bg-transparent hover:bg-white hover:text-primary">
+                      <Github className="w-5 h-5" />
                     </Button>
                   </div>
                 </div>
               </div>
               
               <div className="p-6">
-                <div className="flex items-center justify-between mb-3">
-                  <span className="px-3 py-1 bg-secondary/20 text-secondary text-sm rounded-full font-medium">
+                <div className="flex items-center justify-between mb-4">
+                  <span className="px-3 py-1 bg-primary/10 text-primary text-xs font-semibold rounded-full uppercase tracking-wide">
                     {project.category}
                   </span>
                 </div>

@@ -50,10 +50,10 @@ const Contact = () => {
   ];
 
   return (
-    <section className="py-20 bg-background">
+    <section className="py-24 bg-muted/30">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+        <div className="text-center mb-20 animate-fade-in">
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6 tracking-tight">
             Let's Work Together
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
@@ -72,14 +72,14 @@ const Contact = () => {
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <div className="flex items-start space-x-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-gradient-hero rounded-full flex items-center justify-center">
-                    <info.icon className="w-6 h-6 text-white" />
+                  <div className="flex-shrink-0 w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center">
+                    <info.icon className="w-6 h-6 text-primary" />
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-foreground mb-1">
                       {info.title}
                     </h3>
-                    <p className="text-primary font-medium mb-1">
+                    <p className="text-primary font-semibold mb-1">
                       {info.details}
                     </p>
                     <p className="text-sm text-muted-foreground">
@@ -90,9 +90,9 @@ const Contact = () => {
               </div>
             ))}
 
-            <div className="bg-gradient-warm rounded-2xl p-6 text-white animate-scale-in">
-              <h3 className="text-lg font-semibold mb-3">Supporting Families</h3>
-              <p className="text-sm text-white/90 leading-relaxed">
+            <div className="bg-gradient-to-br from-secondary to-secondary-glow rounded-2xl p-7 text-white animate-scale-in border border-white/10">
+              <h3 className="text-lg font-bold mb-3">Supporting Families</h3>
+              <p className="text-sm text-white/95 leading-relaxed">
                 When you work with Web Workers, 100% of our proceeds go to the Ronald McDonald House, 
                 helping families stay close to their children during medical treatment.
               </p>
@@ -101,7 +101,7 @@ const Contact = () => {
 
           {/* Contact Form */}
           <div className="lg:col-span-2">
-            <form onSubmit={handleSubmit} className="bg-card rounded-2xl p-8 shadow-soft animate-slide-up">
+            <form onSubmit={handleSubmit} className="bg-card rounded-2xl p-10 border border-border animate-slide-up">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">

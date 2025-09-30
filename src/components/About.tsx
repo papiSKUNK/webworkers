@@ -17,14 +17,13 @@ const About = () => {
     title: "Personal Touch",
     description: "Two developers who care about your success and our shared mission."
   }];
-  return <section className="py-20 bg-background">
+  return <section className="py-24 bg-background">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+        <div className="text-center mb-20 animate-fade-in">
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6 tracking-tight">
             About Web Workers
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">We're Ezra Hengeveld and Mahir Kaiser,
-  two passionate developers from Newfoundland, Canada. Unlike typical coding businesses, we're a nonprofit organization dedicated to creating exceptional websites while supporting families in need.</p>
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">We're Ezra Hengeveld and Mahir Kaiser, two passionate developers from Newfoundland, Canada. Unlike typical coding businesses, we're a nonprofit organization dedicated to creating exceptional websites while supporting families in need.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
@@ -57,15 +56,15 @@ const About = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {values.map((value, index) => <div key={index} className="text-center p-6 rounded-lg bg-card shadow-soft hover:shadow-elevated transition-all duration-300 animate-scale-in" style={{
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {values.map((value, index) => <div key={index} className="text-center p-8 rounded-xl bg-card border border-border hover:border-primary/20 hover:shadow-soft transition-all duration-300 animate-scale-in" style={{
           animationDelay: `${index * 0.1}s`
         }}>
-              <div className="inline-flex items-center justify-center w-12 h-12 bg-gradient-hero rounded-full mb-4">
-                <value.icon className="w-6 h-6 text-white" />
+              <div className="inline-flex items-center justify-center w-14 h-14 bg-primary/10 rounded-xl mb-5">
+                <value.icon className="w-7 h-7 text-primary" />
               </div>
-              <h4 className="text-lg font-semibold text-foreground mb-2">{value.title}</h4>
-              <p className="text-muted-foreground leading-relaxed">{value.description}</p>
+              <h4 className="text-lg font-semibold text-foreground mb-3">{value.title}</h4>
+              <p className="text-muted-foreground leading-relaxed text-sm">{value.description}</p>
             </div>)}
         </div>
       </div>

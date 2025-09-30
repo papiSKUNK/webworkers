@@ -42,30 +42,30 @@ const WhyChooseUs = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-warm">
+    <section className="py-24 bg-gradient-to-br from-secondary via-secondary to-secondary-glow text-white">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+        <div className="text-center mb-20 animate-fade-in">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight">
             Why Choose Web Workers?
           </h2>
-          <p className="text-xl text-white/90 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-white/95 max-w-3xl mx-auto leading-relaxed font-light">
             When you work with us, you get exceptional technical expertise combined with 
             the satisfaction of supporting families in need through the Ronald McDonald House.
           </p>
         </div>
 
         {/* Stats Section */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 mb-20">
           {stats.map((stat, index) => (
             <div 
               key={index}
-              className="text-center animate-scale-in"
+              className="text-center p-6 bg-white/10 rounded-xl backdrop-blur-sm animate-scale-in"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <div className="text-4xl md:text-5xl font-bold text-white mb-2">
+              <div className="text-5xl md:text-6xl font-bold mb-2">
                 {stat.number}
               </div>
-              <div className="text-white/80 font-medium">
+              <div className="text-white/90 font-medium text-sm uppercase tracking-wider">
                 {stat.label}
               </div>
             </div>
@@ -73,20 +73,20 @@ const WhyChooseUs = () => {
         </div>
 
         {/* Reasons Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {reasons.map((reason, index) => (
             <div 
               key={index}
-              className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 hover:bg-white/20 transition-all duration-300 animate-slide-up"
+              className="bg-white/10 backdrop-blur-sm rounded-xl p-7 border border-white/10 hover:bg-white/15 hover:border-white/20 transition-all duration-300 animate-slide-up"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <div className="inline-flex items-center justify-center w-12 h-12 bg-white/20 rounded-full mb-4">
-                <reason.icon className="w-6 h-6 text-white" />
+              <div className="inline-flex items-center justify-center w-14 h-14 bg-white/15 rounded-xl mb-5">
+                <reason.icon className="w-7 h-7 text-white" />
               </div>
-              <h3 className="text-xl font-semibold text-white mb-3">
+              <h3 className="text-xl font-semibold mb-3">
                 {reason.title}
               </h3>
-              <p className="text-white/80 leading-relaxed">
+              <p className="text-white/90 leading-relaxed text-sm">
                 {reason.description}
               </p>
             </div>
