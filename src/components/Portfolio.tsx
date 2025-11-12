@@ -8,21 +8,21 @@ const Portfolio = () => {
   const projects = [
     {
       title: "Atlantic Business Solutions",
-      description: "Professional corporate website with modern design, responsive layout, and integrated contact management system.",
+      description: "Coming soon",
       image: portfolio1,
       technologies: ["React", "TypeScript", "Tailwind CSS", "Node.js"],
       category: "Business Website"
     },
     {
       title: "Coastal Commerce",
-      description: "Full-featured e-commerce platform with payment processing, inventory management, and customer accounts.",
+      description: "Coming soon",
       image: portfolio2,
       technologies: ["Next.js", "Stripe", "PostgreSQL", "Prisma"],
       category: "E-commerce"
     },
     {
       title: "Harbor View Restaurant",
-      description: "Elegant restaurant website featuring online reservations, menu management, and photo gallery.",
+      description: "Coming soon",
       image: portfolio3,
       technologies: ["React", "Sanity CMS", "Framer Motion", "Vercel"],
       category: "Restaurant"

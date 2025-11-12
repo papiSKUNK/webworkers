@@ -14,9 +14,9 @@ const Team = () => {
     },
     {
       name: "Mahir",
-      role: "Co-Founder & Full-Stack Developer", 
-      bio: "Dedicated to building accessible, user-friendly websites that make a difference. Expert in responsive design and performance optimization.",
-      skills: ["JavaScript", "Python", "UI/UX Design", "Performance Optimization"],
+      role: "Co-Founder & Business Development", 
+      bio: "Focused on building client relationships and driving business growth. Expert in communications, strategy, and ensuring exceptional customer experiences.",
+      skills: ["Business Strategy", "Client Relations", "Communications", "Project Management"],
       image: mahirHeadshot
     }
   ];

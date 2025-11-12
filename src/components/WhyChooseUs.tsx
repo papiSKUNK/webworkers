@@ -35,10 +35,10 @@ const WhyChooseUs = () => {
   ];
 
   const stats = [
-    { number: "50+", label: "Websites Built" },
-    { number: "$25K+", label: "Donated to RMH" },
-    { number: "100%", label: "Client Satisfaction" },
-    { number: "2", label: "Dedicated Developers" }
+    { number: "2", label: "Team Members" },
+    { number: "100%", label: "To RMH" },
+    { number: "NL", label: "Based" },
+    { number: "24/7", label: "Support" }
   ];
 
   return (
